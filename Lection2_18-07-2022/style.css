@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: url("./background.png") no-repeat right top;*/
+    background-image: url("./background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+h1 {
+    color: red;
+    font-size: 300%;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #9ea7ab;
+}
+
+/* Universal type for all paragraphs*/
+p {
+    font-size: 2em;
+    background-color: #9ea7ab;
+}
+
+.info-1 {
+    background: #ff0;
+}
+
+.info-1.error {
+    color: #602929;
+}
+
+p.info-2 {
+    color: #111;
+}
+
+#info {
+    background-color: steelblue;
+    color: #602929;
+}
+
+p, div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+div li {
+    color: blue;
+}
+
+div > p {
+    color: green;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+div p + p {
+    color: #ff0;
+    text-align: right;
+    text-decoration: underline;
+}
+
+input[type="text"] {
+    background-color: #9ea7ab;
+    font-size: 20px;
+}
+
+.special-elem {
+    margin: 100px 150px 100px 80px;
+
+    /*margin-left: 80px;*/
+    /*margin-bottom: 100px;*/
+    /*margin-top: 100px;*/
+    /*margin-right: 150px;*/
+}
+
+.special-elem-2 {
+    margin: 25px 50px;
+
+    /*margin-top: 25px;*/
+    /*margin-right: 50px;*/
+    /*margin-bottom: 25px;*/
+    /*margin-left: 50px;*/
+}
+
+.special-elem-3 {
+    margin: 25px;
+
+    /*margin-top: 25px;*/
+    /*margin-right: 25px;*/
+    /*margin-bottom: 25px;*/
+    /*margin-left: 25px;*/
+}
+
+.special-elem-4 {
+    margin: auto;
+    width: 300px;
+    border: 1px solid red;
+}
+
+.special-elem-5 {
+    margin-bottom: 30px;
+}
+
+.special-elem-6 {
+    margin-top: 20px;
+}
+
+.special-elem-7 {
+    margin: 0;
+    padding-bottom: 30px;
+    /*margin-bottom: 30px;*/
+}
+
+.special-elem-8 {
+    margin: 0;
+    padding-top: 20px;
+    /*margin-top: 20px;*/
+}
+
+.special-elem-9 {
+    padding: 50px;
+    /*width: 300px;*/
+}
