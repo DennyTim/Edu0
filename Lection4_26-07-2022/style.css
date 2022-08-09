@@ -1,0 +1,117 @@
+/* 0001 - 1 tag selector */
+/* 0010 - 1 class selector */
+/* 0010 - 1 attr selector */
+/* 0100 - 1 id selector */
+/* 1000 - !important */
+
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Tag Selector 0001 */
+p {
+    padding: 2em;
+}
+
+/* Class selector 0010 */
+.info {
+    padding: 2em;
+    color: cadetblue;
+}
+
+.error {
+    background-color: blue;
+}
+
+/* 0020 */
+/* Multiple class selector */
+.info.error {
+    background-color: tomato;
+    padding: 3em;
+    color: yellow;
+}
+
+/* 0011 */
+/* Multiple tag-class selector */
+p.error {
+    color: red;
+}
+
+/* 0100 */
+/* ID selector */
+#confirm {
+    background-color: #5568a6;
+}
+
+/* 0003 */
+/* Inherit selector */
+nav ul li {
+    padding: 1em;
+}
+
+/* 0020 */
+/* Descendent selector */
+.info, .error {
+    background-color: #602929;
+    color: #888585;
+}
+
+/* 0011 */
+/* Child */
+nav .list {
+    background-color: rgba(0, 104, 255, 0.6);
+}
+
+/* 0011 */
+/* Direct Child */
+nav > .list {
+    background-color: steelblue;
+}
+
+/* 0002 */
+/* Adj sibling */
+p + nav {
+    font-size: 20px;
+}
+
+/* 0010 */
+.input {
+    margin: 5px;
+}
+
+/* Attribute selector */
+/* 0010 */
+[type="text"] {
+    margin: 10px;
+}
+
+.content {
+    width: 700px;
+}
+
+.content-item {
+    width: 50%;
+}
+
+/* 1em = 16px*/
+
+html {
+    font-size: 90.5%;
+}
+
+li {
+    font-size: 2rem;
+}
+
+/*  ...-...-... , 3 words, max 4*/
+.submit {
+    background-color: green;
+    color: white;
+}
+
+.sm-button {
+    background-color: steelblue;
+    color: white;
+}

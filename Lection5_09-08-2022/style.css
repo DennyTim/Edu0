@@ -1,0 +1,102 @@
+/* About !important */
+
+.text-input {
+    font-size: 15px;
+    color: red;
+}
+
+[type="text"] {
+    font-size: 12px;
+    /*!!!!!!!!!!!!!! Forbidden for using !!!!!!!!!!!*/
+    color: blue !important;
+}
+
+/* About Floats */
+
+.img-container {
+    box-sizing: border-box;
+    float: left;
+    padding: 5px;
+    width: calc(100% / 3);
+}
+
+img {
+    width: 100%;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* About Overflow */
+.content {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+
+/* Exercise */
+.list {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #333030;
+    overflow: auto;
+}
+
+.list-item {
+    float: left;
+    padding: 16px 25px;
+    list-style: none;
+}
+
+.list-item:hover {
+    background: tomato;
+}
+
+.list-item__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Exercise */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background: #333;
+    overflow: hidden;
+}
+
+.navbar-link {
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    background-color: #ddd;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.column {
+    padding: 2px;
+    float: left;
+    width: 33%;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
