@@ -2,6 +2,7 @@
 /* 0010 - 1 class selector */
 /* 0010 - 1 attr selector */
 /* 0100 - 1 id selector */
+/* 1000 - !important */
 
 /* Universal selector */
 * {
