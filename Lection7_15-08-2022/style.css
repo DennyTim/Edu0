@@ -1,0 +1,7 @@
+.form-label {
+    display: block;
+}
+
+.form-label:not(:first-child) {
+    margin-top: 10px;
+}
