@@ -1,0 +1,99 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table2 {
+    margin-top: 10px;
+}
+
+.gradient {
+    margin-top: 10px;
+    background: linear-gradient(blue, lightblue);
+    width: 400px;
+    height: 100px;
+}
+
+.gradient2 {
+    margin-top: 10px;
+    background: linear-gradient(to right, blue, lightblue);
+    width: 400px;
+    height: 100px;
+}
+
+.gradient3 {
+    margin-top: 10px;
+    background: linear-gradient(to bottom right, blue, lightblue);
+    width: 400px;
+    height: 100px;
+}
+
+.gradient4 {
+    margin-top: 10px;
+    background: linear-gradient(30deg, yellow, red);
+    width: 400px;
+    height: 100px;
+}
+
+.gradient5 {
+    margin-top: 10px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    width: 400px;
+    height: 100px;
+}
+
+.gradient6 {
+    margin-top: 10px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    color: #888;
+    font-weight: 700;
+}
+
+.gradient7 {
+    margin-top: 10px;
+    background: radial-gradient(red, yellow, green);
+    width: 400px;
+    height: 100px;
+    transition: background 1s ease-in-out;
+}
+
+.gradient7:hover {
+    background: radial-gradient(green, yellow, red);
+}
+
+.gradient8 {
+    margin-top: 10px;
+    background: radial-gradient(red 5%, yellow 15%, green 60%);
+    width: 400px;
+    height: 100px;
+}
+
+.gradient9 {
+    margin-top: 10px;
+    background: radial-gradient(circle, red, yellow, green);
+    width: 400px;
+    height: 100px;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px;
+}
+
+.text-shadow2 {
+    text-shadow: 2px 2px red;
+}
+
+.text-shadow3 {
+    text-shadow: 2px 2px 5px red;
+}
+
+.box-shadow {
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px grey;
+}
