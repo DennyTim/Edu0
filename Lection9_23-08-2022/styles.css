@@ -1,0 +1,129 @@
+.d-flex {
+    display: flex;
+    width: 670px;
+    flex-wrap: wrap;
+}
+
+p {
+    height: 200px;
+    border: 5px solid #000;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    flex-basis: 150px;
+}
+
+.item1 {
+    order: 3;
+    flex-grow: 1;
+}
+
+.item2 {
+    order: 1;
+    flex-grow: 1;
+}
+
+.item3 {
+    order: 2;
+    flex-grow: 1;
+}
+
+/* animations */
+.animation-block {
+    width: 200px;
+    height: 200px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+    0% {
+        background-color: #5568a6;
+    }
+    50% {
+        background-color: #3a6686;
+    }
+    100% {
+        background-color: #333333;
+    }
+    /*from {*/
+    /*    background-color: red;*/
+    /*}*/
+    /*to {*/
+    /*    background-color: yellow;*/
+    /*}*/
+}
+
+/* grid */
+.grid {
+    margin-top: 10px;
+    display: grid;
+    /*justify-items: stretch;*/
+    /*align-items: stretch;*/
+    justify-content: space-around;
+    grid-template-rows: repeat(4, 30%);
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+    grid-template-areas:
+        "item11 item11 item11 item5"
+        "item4 item6 item12 item8"
+        "item9 item10 item1 item7"
+        "item3 item3 item2 item2";
+}
+
+.grid > div {
+    border: 1px #000 solid;
+    padding: .5em;
+    font-size: 20px;
+    background-color: green;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
+}
+
+.item10 {
+    grid-area: item10;
+}
+
+.item11 {
+    grid-area: item11;
+}
+
+.item12 {
+    grid-area: item12;
+}
